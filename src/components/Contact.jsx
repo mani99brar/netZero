@@ -4,7 +4,7 @@ import { faPhone,faEnvelope,faLink} from "@fortawesome/free-solid-svg-icons";
 export const Contact = () => {
   return (
     <div className='w-[100%] flex justify-center bg-[#74C365]'>
-        <div className='w-[70%] m-20 flex rounded-2xl '>
+        <div className='w-[80%] m-20 flex rounded-2xl '>
             
             <div className='w-[35%] flex flex-col justify-between h-[100%] text-white'>
                 <h1 className='w-[60%] mb-4 flex text-4xl'>Contacts</h1>

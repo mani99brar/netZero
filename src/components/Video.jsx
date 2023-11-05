@@ -3,7 +3,7 @@ import React from 'react'
 export const Video = () => {
   return (
     <div className='w-[100vw] h-[100vh] flex flex-col justify-center items-center radialGradient'>
-      <div className='w-[70%] h-[70vh]'>
+      <div className='w-[80%] h-[70vh]'>
         <h1 className='text-6xl mb-10'>3D Design Walkthrough</h1>
         <iframe
           width="100%"
