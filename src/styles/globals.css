@@ -2,26 +2,107 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #00A3E4; */
+    color: white;
+    
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@keyframes shrink {
+    0%{
+        width: 100%;
+        height: 100%;
+    }
+    50%{
+        width: 50%;
+        height: 50%;
+    }
+    100%{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.greenGradient {
+    position: relative;
+    background: hsla(113, 43%, 58%, 1);
+    background: linear-gradient(90deg, hsla(113, 43%, 58%, 1) 0%, hsla(197, 100%, 45%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(113, 43%, 58%, 1) 0%, hsla(197, 100%, 45%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(113, 43%, 58%, 1) 0%, hsla(197, 100%, 45%, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#72C367", endColorstr="#00A3E4", GradientType=1);
+    backdrop-filter: blur(1000px); 
   }
+
+.firstBall {
+    position: absolute;
+    width: 1200px;
+    height: 1200px;
+    left: -200px;
+    opacity: 0.7;
+    z-index: -2;
+    border-radius: 50%;
+    background: radial-gradient(circle, hsla(197, 100%, 45%, 1) 0%, hsla(44, 100%, 60%, 1) 100%);
+}
+.secondBall {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    opacity: 0.7;
+    right: -200px;
+    z-index: -2;
+    border-radius: 50%;
+    background: radial-gradient(circle, hsla(113, 43%, 58%, 1) 0%, hsla(197, 100%, 45%, 1) 100%);
+    
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.yellowGradient{
+    background: hsla(44, 100%, 60%, 1);
+
+    background: linear-gradient(90deg, hsla(44, 100%, 60%, 1) 0%, hsla(113, 43%, 58%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(44, 100%, 60%, 1) 0%, hsla(113, 43%, 58%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(44, 100%, 60%, 1) 0%, hsla(113, 43%, 58%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFC935", endColorstr="#72C367", GradientType=1 );}
+
+.radialGradient{background: hsla(113, 43%, 58%, 1);
+
+    background: linear-gradient(90deg, hsla(113, 43%, 58%, 1) 0%, hsla(44, 100%, 60%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(113, 43%, 58%, 1) 0%, hsla(44, 100%, 60%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(113, 43%, 58%, 1) 0%, hsla(44, 100%, 60%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#72C367", endColorstr="#FFC935", GradientType=1 );}
+
+.blueGradient{
+    background: hsla(197, 100%, 45%, 1);
+
+background: linear-gradient(90deg, hsla(197, 100%, 45%, 1) 0%, hsla(113, 43%, 58%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(197, 100%, 45%, 1) 0%, hsla(113, 43%, 58%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(197, 100%, 45%, 1) 0%, hsla(113, 43%, 58%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00A3E4", endColorstr="#72C367", GradientType=1 );
+}
+
+.compHead{
+    font-size: 8rem;
+
+     
+      
+}
+
+.videoBg{
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,0.227328431372549) 30%, rgba(65,255,0,0.3757878151260504) 69%, rgba(0,169,255,1) 100%);
+}
+input{
+    width: 44%;
+    padding:16px;
 }
