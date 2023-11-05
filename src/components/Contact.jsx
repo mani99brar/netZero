@@ -7,7 +7,7 @@ export const Contact = () => {
         <div className='w-[70%] m-20 flex rounded-2xl '>
             
             <div className='w-[35%] flex flex-col justify-between h-[100%] text-white'>
-                <h1 className='w-[60%] mb-4 flex text-6xl'>Contacts</h1>
+                <h1 className='w-[60%] mb-4 flex text-4xl'>Contacts</h1>
                 <div className='w-[100%] h-[70%] flex flex-col space-y-8'>
                 <div className='flex w-[60%] text-2xl'>
                     <FontAwesomeIcon icon={faPhone} className="fas fa-phone" style={{ color: "white" }}></FontAwesomeIcon>
