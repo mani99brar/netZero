@@ -38,8 +38,8 @@
 
 .firstBall {
     position: absolute;
-    width: 1200px;
-    height: 1200px;
+    width: 50vw;
+    height: 100vh;
     left: -200px;
     opacity: 0.7;
     z-index: -2;
@@ -48,8 +48,8 @@
 }
 .secondBall {
     position: absolute;
-    width: 800px;
-    height: 800px;
+    width: 30vw;
+    height: 60vh;
     opacity: 0.7;
     right: -200px;
     z-index: -2;
@@ -92,10 +92,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00A3E4", en
 }
 
 .compHead{
-    font-size: 8rem;
-
-     
-      
+    font-size: 6rem;
 }
 
 .videoBg{
