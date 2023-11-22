@@ -11,7 +11,7 @@ export const Stats = () => {
   return (
     <div className='w-[100%] flex justify-center bg-[#72C367]'>
         <div className='w-[80%] flex flex-col justify-between'>
-            <h1 className='text-6xl z-10 mb-6'>Last 24 hours</h1>
+            <h1 className='lg:text-6xl text-4xl z-10 mb-6'>Last 24 hours</h1>
             <div className='flex flex-wrap justify-around w-[100%]'>
                 <Card head="Solar Energy Produced" bgColor="#ffc9339c" />
                 <Card head="Energy Consumption" bgColor="#ffc9339c" />
