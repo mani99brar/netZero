@@ -3,9 +3,9 @@ import Image from 'next/image';
 export const About = () => {
   return (
     <div className='w-[100%] flex justify-center flex-col items-center bg-[#00A9FF] yellowGradient text-black h-[80vh]'>
-        <h1 className='lg:text-6xl text-4xl my-2 w-[80%]'>About Us</h1>
+        <h1 className='bg-white text-center w-[80%] rounded-lg px-4 py-2 text-[#71C266] lg:mt-40 mt-60 mb-20 lg:text-6xl text-4xl shadow-2xl shadow-green'>About Us</h1>
         <div className='w-[80%] flex items-center lg:flex-row flex-col-reverse h-[100%]'>
-            <div className='lg:w-[50%] w-[100%] flex flex-col justify-around h-[60%]'>
+            <div className='lg:w-[50%] w-[100%] flex flex-col justify-around'>
                 <div className='my-6'>
                     
                     <p className='hidden text-xl ml-6'>Saving the future for EARTH</p>

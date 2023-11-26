@@ -3,50 +3,32 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone,faEnvelope,faLink} from "@fortawesome/free-solid-svg-icons";
 export const Contact = () => {
   return (
-    <div className='w-[100%] flex justify-center bg-[#74C365]'>
-        <div className='w-[80%] m-20 flex rounded-2xl '>
+    <div className='w-[100%] flex justify-center pb-10 bg-[#74C365]'>
+        <div className='lg:w-[80%] w-[80%] flex rounded-2xl '>
             
-            <div className='w-[35%] flex flex-col justify-between h-[100%] text-white'>
-                <h1 className='w-[60%] mb-4 flex text-4xl'>Contacts</h1>
-                <div className='w-[100%] h-[70%] flex flex-col space-y-8'>
-                <div className='flex w-[60%] text-2xl'>
+            <div className='w-[100%] flex flex-col justify-between h-[100%] text-white'>
+                <h1 className='bg-white  rounded-lg px-4 py-2 text-[#74C365] mb-20 text-center mt-80 lg:text-6xl text-4xl shadow-2xl shadow-green'>Contacts</h1>
+                <div className='w-[100%] h-[70%] flex flex-wrap justify-around items-center space-y-8'>
+                <div className='flex lg:w-[45%] w-[80%] justify-center text-2xl'>
                     <FontAwesomeIcon icon={faPhone} className="fas fa-phone" style={{ color: "white" }}></FontAwesomeIcon>
                     <p className='ml-4'>+91-989-9979-893</p>
                 </div>
-                <div className='flex w-[60%] text-2xl'>
+                <div className='flex lg:w-[45%] w-[80%]  justify-center text-2xl'>
                     <FontAwesomeIcon icon={faEnvelope} className="fas fa-envelope" style={{ color: "white" }}></FontAwesomeIcon>
                     <p className='ml-4'>johndoe@gmail.com</p>
                 </div>
-                <div className='flex w-[60%] text-2xl'>
+                <div className='flex lg:w-[45%] w-[80%]  justify-center text-2xl'>
                     <FontAwesomeIcon icon={faLink} className="fas fa-link" style={{ color: "white" }}></FontAwesomeIcon>
                     <p className='ml-4'>LinkedIn</p>
                 </div>
-                <div className='flex w-[60%] text-2xl'>
+                <div className='flex lg:w-[45%] w-[80%]  justify-center text-2xl'>
                     <FontAwesomeIcon icon={faLink} className="fas fa-link" style={{ color: "white" }}></FontAwesomeIcon>
                     <p className='ml-4'>Instagram</p>
                 </div>
                 </div>
                
             </div>
-            <div className='w-[65%]'>
-                <h1 className='mb-6 text-4xl'>Write to us</h1>
-                <div className='w-[100%]'>
-                    <form action="" className='w-[100%] flex flex-col justify-around space-y-4'>
-                        <div className='w-[100%] flex justify-between'>
-                            <input  placeholder='First Name' className='border-2' type="text" />
-                            <input placeholder='Last Name' className='border-2' type="text" />
-                        </div>
-                        <div className='flex justify-between'>
-                            <input placeholder='E-Mail' className='border-2' type="email" />
-                            <input placeholder='Mobile Number' className='border-2' type="email" />
-                        </div>
-                        <div>
-                            <textarea name="" className='w-[100%] p-4'  placeholder='Your Message' id="" cols="30" rows="10"></textarea>
-                        </div>
-                        <button className='bg-[#2AB0B6] p-4 w-[100px]'>SEND</button>
-                    </form>
-                </div>
-            </div>
+            
         </div>
     </div>
   )
