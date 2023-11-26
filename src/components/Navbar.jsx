@@ -13,7 +13,7 @@ export const Navbar = () => {
                 </ul>
             </div>
             <div className='w-[20%] flex justify-end'>
-                <button>3D Model</button>
+                <a href="https://vrdemo.utecbuild.com/1056568/">3D Model</a>
             </div>
             
         </div>
