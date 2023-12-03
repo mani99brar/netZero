@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { Card } from './Card';
 
+
 export const Stats = () => {
     const [solarEnergy,setSolarEnergy] = useState(0); 
     const [dailyEnergy,setDailyEnergy] = useState(0); 
@@ -13,11 +14,11 @@ export const Stats = () => {
         <div className='w-[80%] flex flex-col justify-between'>
             <h1 className='bg-white   rounded-lg px-4 py-2 text-[#74C365] mb-20 lg:mt-40 mt-20 text-center lg:text-6xl text-4xl shadow-2xl shadow-green'>Last 24 hours</h1>
             <div className='flex flex-wrap justify-around w-[100%]'>
-                <Card head="Solar Energy Produced" bgColor="#ffc9339c" />
-                <Card head="Energy Consumption" bgColor="#ffc9339c" />
-                <Card head="Fresh Water Consumption" bgColor="#2AB0B6"/>
-                <Card head="Recycled Water Consumption" bgColor="#2AB0B6" />
-                <Card head="Carbon Footprint Sequestered" bgColor="#ffc9339c" />
+                <Card head="Solar Energy Produced" bgColor="#ffc9339c" img="solar.png" />
+                <Card head="Energy Consumption" bgColor="#ffc9339c" img="energy.png"/>
+                <Card head="Fresh Water Consumption" bgColor="#2AB0B6" img="water.png"/>
+                <Card head="Recycled Water Consumption" bgColor="#2AB0B6" img="recycle.png" />
+                <Card head="Carbon Footprint Sequestered" bgColor="#ffc9339c" img="carbon.png" />
             </div>
         </div>
         
