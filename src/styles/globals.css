@@ -103,3 +103,19 @@ input{
     width: 44%;
     padding:16px;
 }
+
+.fadeOut{
+    animation: shrink 1.5s ease-in-out;
+    animation-fill-mode: forwards;
+    transition: all 1.5s ease-in-out;
+}
+@keyframes shrink {
+    0%{
+        display: block;
+
+    }
+    100%{
+
+        display: none;
+    }
+}

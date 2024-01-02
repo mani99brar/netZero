@@ -23,7 +23,7 @@ export const Header = () => {
             </div> */}
             <div className='w-[100%] lg:w-[50%] lg:z-20 lg:relative absolute  z-10 flex flex-col justify-between'>
                 
-                <img className='w-[100%] lg:bottom-0 mb-20 lg:mb-20 relative bottom-20' src="earth.png" alt="" />
+                <img className='w-[100%] lg:bottom-0 mb-20 lg:mb-20 lg:mt-0 mt-20 relative bottom-20' src="earth.png" alt="" />
                 
                 {/* <div className='w-[40%] border-4   border-black h-[100%]'>
                     <p className='flex justify-center items-center h-[80%] text-6xl tracking-widest'>Something else</p>
