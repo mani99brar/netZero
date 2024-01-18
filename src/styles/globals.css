@@ -131,5 +131,11 @@ input{
 .about p,.about li{
     font-weight: 800;
     font-size: 1.2rem;
-    text-align: justify;
+    
+}
+
+@media (min-width: 1200px) {
+    .featureUl li {
+        width: 100%;
+    }
 }

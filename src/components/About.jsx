@@ -28,18 +28,18 @@ export const About = () => {
             </div>
         </div>
         <div className='w-[80%] flex lg:items-center items-start flex-col mt-8'>
-            <h1 className="bg-white text-centerrounded-lg px-4 py-2 text-[#ffc933] rounded-md lg:text-5xl mb-10 text-3xl shadow-2xl shadow-green">Features</h1>
-            <ul className='flex lg:justify-around items-center flex-wrap text-xl list-disc  w-[100%] gap-8 featureUl'>
-                <li>Solar Rooftop</li>
-                <li>EV Charging Station </li>
-                <li>Heat pump</li>
-                <li>Thermally Comfortable building envelope (RETV= 7 W/m² approx.)</li>
-                <li>Open Courtyard</li>
-                <li>Water Harvesting</li>
-                <li>Wide terrace</li>
-                <li>Sun Shades </li>
-                <li>Low SHGC glass </li>
-                <li>Reflective paint </li>
+            <h1 className="bg-white text-center rounded-lg px-4 py-2 text-[#ffc933] lg:text-5xl mb-10 text-3xl shadow-2xl shadow-green">Features</h1>
+            <ul className='flex lg:justify-around lg:items-start items-center flex-wrap text-xl list-disc w-[100%] gap-8 featureUl'>
+                <li className=' text-center lg:w-[40%] w-[90%]'>Solar Rooftop</li>
+                <li className=' text-center lg:w-[40%] w-[90%]'>EV Charging Station </li>
+                <li className=' text-center lg:w-[40%] w-[90%]'>Heat pump</li>
+                <li className=' text-center lg:w-[40%] w-[90%]'>Thermally Comfortable building envelope (RETV= 7 W/m² approx.)</li>
+                <li className=' text-center lg:w-[40%] w-[90%]'>Open Courtyard</li>
+                <li className=' text-center lg:w-[40%] w-[90%]'>Water Harvesting</li>
+                <li className=' text-center lg:w-[40%] w-[90%]'>Wide terrace</li>
+                <li className=' text-center lg:w-[40%] w-[90%]'>Sun Shades </li>
+                <li className=' text-center lg:w-[40%] w-[90%]'>Low SHGC glass </li>
+                <li className=' text-center lg:w-[40%] w-[90%]'>Reflective paint </li>
             </ul>
         </div>
         
