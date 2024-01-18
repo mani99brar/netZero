@@ -119,3 +119,17 @@ input{
         display: none;
     }
 }
+
+.featureUl li{
+    margin: 0px 20px;
+    background-color: #71c266;
+    list-style-type: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about p,.about li{
+    font-weight: 800;
+    font-size: 1.2rem;
+    text-align: justify;
+}
