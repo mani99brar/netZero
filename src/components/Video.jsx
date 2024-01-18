@@ -16,10 +16,10 @@ export const Video = () => {
   }
 
   return (
-    <div className='w-[100vw] h-[100vh] flex flex-col justify-center items-center radialGradient'>
-      <div className='lg:w-[80%] lg:mt-20 mt-60 w-[90%] lg:h-[100vh] h-[80vh] relative flex flex-col justify-center items-center'>
+    <div className='w-[100vw] flex flex-col justify-center items-center radialGradient'>
+      <div className='lg:w-[80%] lg:mt-20 lg:h-[80vh] h-[80vh] w-[90%]  relative flex flex-col justify-center items-center'>
         <h1 className='bg-white mt-40 text-center w-[100%] rounded-lg px-4 py-2 text-[#EEC839] mb-20 lg:text-6xl text-4xl shadow-2xl shadow-green'>3D Walkthrough</h1>
-        <div className='lg:w-[80%] w-[100%] h-[100%] relative flex flex-col justify-center items-center'>
+        <div className='lg:w-[80%] w-[50%] lg:h-[100%] h-[50%] relative flex flex-col justify-center items-center'>
           <iframe 
             className='lg:w-[100%] w-[100%] hidden'
             height="100%"

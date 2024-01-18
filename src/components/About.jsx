@@ -5,8 +5,8 @@ import Image from 'next/image';
 import { Card } from './Card';
 export const About = () => {
   return (
-    <div className='w-[100%] flex justify-center flex-col items-center bg-[#00A9FF] yellowGradient text-black h-[80vh] about'>
-        <h1 className='bg-white text-center  lg:w-[80%] w-[90%] rounded-lg px-4 py-2 text-[#71C266] lg:mt-40 mt-80 mb-20 lg:text-6xl text-4xl shadow-2xl shadow-green'>About Us</h1>
+    <div className='w-[100%] flex justify-center flex-col items-center bg-[#00A9FF] yellowGradient text-black about'>
+        <h1 className='bg-white text-center  lg:w-[80%] w-[90%] rounded-lg px-4 py-2 text-[#71C266] lg:mt-40 mb-20 lg:text-6xl text-4xl shadow-2xl shadow-green'>About Us</h1>
         <div className='w-[80%] flex items-center lg:flex-row flex-col'>
             <div className='lg:w-[50%] w-[100%] lg:mb-0 mb-8 flex flex-col justify-around'>
                 
@@ -27,7 +27,7 @@ export const About = () => {
                 
             </div>
         </div>
-        <div className='w-[80%] flex lg:items-center items-start flex-col mt-8 mb-64'>
+        <div className='w-[80%] flex lg:items-center items-start flex-col mt-8'>
             <h1 className="bg-white text-centerrounded-lg px-4 py-2 text-[#ffc933] rounded-md lg:text-5xl mb-10 text-3xl shadow-2xl shadow-green">Features</h1>
             <ul className='flex lg:justify-around items-center flex-wrap text-xl list-disc  w-[100%] gap-8 featureUl'>
                 <li>Solar Rooftop</li>
