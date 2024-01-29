@@ -3,11 +3,11 @@ import { Navbar } from './Navbar'
 import { Counter } from './Counter'
 import Image from 'next/image'
 
-export const Header = () => {
+export const Header = ({ setScroll }) => {
 
     return (
         <div className='w-[100vw] flex flex-col items-center  h-[100vh] relative greenGradient '>
-            <Navbar />
+            <Navbar setScroll={setScroll} />
             <div className='lg:w-[70%] w-[90%]  flex justify-between items-center relative h-[80vh]'>
                 <div className='firstBall lg:flex hidden'></div>
                 <div className='secondBall lg:flex '></div>

@@ -1,6 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-export const Navbar = () => {
+export const Navbar = ({ setScroll }) => {
+    const handleNav = (value) => {
+        setScroll(value);
+    }
     return (
         <div className='w-[100%] p-8 text-xl justify-center flex text-black border-2'>
             <div className='flex justify-center w-[95%] text-2xl'>
@@ -10,9 +13,9 @@ export const Navbar = () => {
                     </div>
 
                     <ul className='hidden w-[80%] space-x-20 lg:flex'>
-                        <li>About</li>
-                        <li>Design</li>
-                        <li>Contact</li>
+                        <li onClick={() => handleNav(1)}>About</li>
+                        <li onClick={() => handleNav(2)}>Design</li>
+                        <li onClick={() => handleNav(3)}>Contact</li>
                     </ul>
                 </div>
                 <div className='w-[300px] flex justify-center items-center rounded-xl bg-white text-[#6AC06D] shadow-xl'>
