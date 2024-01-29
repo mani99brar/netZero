@@ -19,11 +19,11 @@ export const Contact = () => {
                         </div>
                         <div className='flex lg:w-[45%] w-[80%] items-center p-4 justify-center text-3xl'>
                             <FontAwesomeIcon icon={faPhone} className="fas fa-phone" style={{ color: "white" }}></FontAwesomeIcon>
-                            <p className='ml-4 bg-white rounded-lg p-4 text-xl text-[#74C365]'>+91-989-9979-893</p>
+                            <p className='ml-4 bg-white rounded-lg p-4 text-xl text-[#74C365]'>+91 93565 00003</p>
                         </div>
                         <div className='flex lg:w-[45%] w-[80%] items-center  justify-center text-4xl'>
                             <FontAwesomeIcon icon={faEnvelope} className="fas fa-envelope" style={{ color: "white" }}></FontAwesomeIcon>
-                            <p className='ml-4 bg-white rounded-lg p-4 text-xl text-[#74C365]'>johndoe@gmail.com</p>
+                            <p className='ml-4 bg-white rounded-lg p-4 text-xl text-[#74C365]'>jaspreet@assurity.in</p>
                         </div>
                     </div>
 
