@@ -13,9 +13,9 @@ export const Navbar = ({ setScroll }) => {
                     </div>
 
                     <ul className='hidden w-[80%] space-x-20 lg:flex'>
-                        <li onClick={() => handleNav(1)}>About</li>
-                        <li onClick={() => handleNav(2)}>Design</li>
-                        <li onClick={() => handleNav(3)}>Contact</li>
+                        <li className='cursor-pointer' onClick={() => handleNav(1)}>About</li>
+                        <li className='cursor-pointer' onClick={() => handleNav(2)}>Design</li>
+                        <li className='cursor-pointer' onClick={() => handleNav(3)}>Contact</li>
                     </ul>
                 </div>
                 <div className='w-[300px] flex justify-center items-center rounded-xl bg-white text-[#6AC06D] shadow-xl'>
