@@ -15,7 +15,7 @@ export const About = () => {
         </div>
         <div className='lg:w-[50%] w-[100%] h-[100%] flex  justify-center'>
           <div className='lg:w-[80%] w-[100%]'>
-            <a href='/certificate.pdf' target="_blank" className='flex items-center w-[100%]'><span className="bg-white text-centerrounded-lg px-4 py-2 text-[#71C266] rounded-md lg:text-5xl mb-10 text-3xl shadow-2xl shadow-green">Certifiaction </span>
+            <a href='/certificate.pdf' target="_blank" className='flex items-center w-[100%]'><span className="bg-white text-centerrounded-lg px-4 py-2 text-[#71C266] rounded-md lg:text-5xl mb-10 text-3xl shadow-2xl shadow-green">Certification </span>
               <FontAwesomeIcon icon={faExternalLink} className="fas fa-link text-4xl ml-4 mb-8" ></FontAwesomeIcon>
             </a>
             <ul className='list-disc text-justify'>
